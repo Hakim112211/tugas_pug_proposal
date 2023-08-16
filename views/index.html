@@ -1,137 +1,177 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>My Portofolio | Hakim</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>My Portofolio | Hakim</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
 
-    <!-- My CSS -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
-      <div class="container">
-        <a class="navbar-brand" href="#">KIM</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">about</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+      <!-- My CSS -->
+      <link rel="stylesheet" href="style.css" />
+    </head>
+    <body id="home">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">KIM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <!-- Akhir Navbar -->
-    <!-- Jumbotron -->
-    <section class="jumbotron text-center">
-      <img src="https://im.vsco.co/aws-us-west-2/8ba2df/236572455/64d9d62995904923da000001/860e5f1a-5347-4bd4-9505-bb322dcc57418003613114507307995.jpg?w=1200" alt="Maulana Hakim" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4 text-white">Maulana Hakim</h1>
-      <p class="lead text-white">Programmer | Gamer</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffffff"
-          fill-opacity="1"
-          d="M0,288L24,272C48,256,96,224,144,192C192,160,240,128,288,128C336,128,384,160,432,170.7C480,181,528,171,576,170.7C624,171,672,181,720,186.7C768,192,816,192,864,165.3C912,139,960,85,1008,64C1056,43,1104,53,1152,69.3C1200,85,1248,107,1296,96C1344,85,1392,43,1416,21.3L1440,0L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- Akhir Jumbotron -->
+      </nav>
+      <!-- Akhir Navbar -->
+      <!-- Jumbotron -->
+      <section class="jumbotron text-center">
+        <img src="https://im.vsco.co/aws-us-west-2/8ba2df/236572455/64d9d62995904923da000001/860e5f1a-5347-4bd4-9505-bb322dcc57418003613114507307995.jpg?w=1200" alt="Maulana Hakim" width="200" class="rounded-circle img-thumbnail" />
+        <h1 class="display-4 text-white">Maulana Hakim</h1>
+        <p class="lead text-white">Programmer | Gamer</p>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#ffffff"
+            fill-opacity="1"
+            d="M0,288L24,272C48,256,96,224,144,192C192,160,240,128,288,128C336,128,384,160,432,170.7C480,181,528,171,576,170.7C624,171,672,181,720,186.7C768,192,816,192,864,165.3C912,139,960,85,1008,64C1056,43,1104,53,1152,69.3C1200,85,1248,107,1296,96C1344,85,1392,43,1416,21.3L1440,0L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"
+          ></path>
+        </svg>
+      </section>
+      <!-- Akhir Jumbotron -->
 
-    <!-- About -->
-    <section id="about">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>About Me</h2>
+      <!-- About -->
+      <section id="about">
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h2>About Me</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center fs-5 text-center">
+            <div class="col-md-4">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni eveniet doloribus architecto illo labore in amet tenetur velit optio voluptates.</p>
+            </div>
+            <div class="col-md-4">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, quasi tempore? Aut magni animi minus deserunt, odit sapiente soluta, mollitia fugiat iure, ullam harum modi.</p>
+            </div>
           </div>
         </div>
-        <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni eveniet doloribus architecto illo labore in amet tenetur velit optio voluptates.</p>
-          </div>
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, quasi tempore? Aut magni animi minus deserunt, odit sapiente soluta, mollitia fugiat iure, ullam harum modi.</p>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#4e4c4c"
-          fill-opacity="1"
-          d="M0,96L40,90.7C80,85,160,75,240,96C320,117,400,171,480,176C560,181,640,139,720,144C800,149,880,203,960,208C1040,213,1120,171,1200,176C1280,181,1360,235,1400,261.3L1440,288L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- Akhir About -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#4e4c4c"
+            fill-opacity="1"
+            d="M0,96L40,90.7C80,85,160,75,240,96C320,117,400,171,480,176C560,181,640,139,720,144C800,149,880,203,960,208C1040,213,1120,171,1200,176C1280,181,1360,235,1400,261.3L1440,288L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+          ></path>
+        </svg>
+      </section>
+      <!-- Akhir About -->
 
-    <!-- Projects -->
-    <section id="projects">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col">
-            <h2>My Projects</h2>
+      <!-- Projects -->
+      <section id="projects">
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h2>My Projects</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-4 mb-3">
+              <div class="card text-bg-secondary">
+                <img src="https://images.unsplash.com/photo-1595045051853-05ef47bdfdbe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="Project 1" />
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card text-bg-secondary">
+                <img src="https://images.unsplash.com/photo-1626958390898-162d3577f293?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" class="card-img-top" alt="Project 2" />
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card text-bg-secondary">
+                <img src="https://plus.unsplash.com/premium_photo-1671631630555-1cb3ffa7dfe6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" class="card-img-top" alt="Project 3" />
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card text-bg-secondary">
+                <img src="https://plus.unsplash.com/premium_photo-1671631630555-1cb3ffa7dfe6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" class="card-img-top" alt="Project 3" />
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card text-bg-secondary">
+                <img src="https://plus.unsplash.com/premium_photo-1671631630555-1cb3ffa7dfe6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" class="card-img-top" alt="Project 3" />
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4 mb-3">
-            <div class="card text-bg-secondary">
-              <img src="https://images.unsplash.com/photo-1595045051853-05ef47bdfdbe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="Project 1" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card text-bg-secondary">
-              <img src="https://images.unsplash.com/photo-1626958390898-162d3577f293?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" class="card-img-top" alt="Project 2" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card text-bg-secondary">
-              <img src="https://plus.unsplash.com/premium_photo-1671631630555-1cb3ffa7dfe6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" class="card-img-top" alt="Project 3" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card text-bg-secondary">
-              <img src="https://plus.unsplash.com/premium_photo-1671631630555-1cb3ffa7dfe6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" class="card-img-top" alt="Project 3" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card text-bg-secondary">
-              <img src="https://plus.unsplash.com/premium_photo-1671631630555-1cb3ffa7dfe6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" class="card-img-top" alt="Project 3" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Akhir Projects -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-  </body>
-</html>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,32L40,69.3C80,107,160,181,240,202.7C320,224,400,192,480,160C560,128,640,96,720,112C800,128,880,192,960,192C1040,192,1120,128,1200,96C1280,64,1360,64,1400,64L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+      </section>
+      <!-- Akhir Projects -->
+
+      <!-- Contact -->
+      <section id="contact">
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Nama Lengkap</label>
+                  <input type="text" class="form-control" id="name" aria-describedby="name">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="email">
+                </div>
+                <div class="mb-3">
+                  <label for="pesan" class="form-label">Pesan</label>
+                  <textarea class="form-control" id="pesan" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Kirim</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#212529" fill-opacity="1" d="M0,0L40,21.3C80,43,160,85,240,96C320,107,400,85,480,101.3C560,117,640,171,720,160C800,149,880,75,960,80C1040,85,1120,171,1200,170.7C1280,171,1360,85,1400,42.7L1440,0L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+      </section>
+      <!-- Akhir Contact -->
+
+      <!-- Footer -->
+      <footer class="bg-dark text-white text-center pb-5">
+        <p>Created by <a href="https://www.instagram.com/maulrdmz/" class="text-white fw-bold">Maulana Hakim</a></p>
+      </footer>
+      <!-- Akhir Footer -->
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </body>
+  </html>
