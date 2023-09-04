@@ -1,0 +1,23 @@
+section#contact
+    form(action='https://formspree.io/f/mnqkvvee' method='POST')
+      .container
+        .row.text-center.mb-3
+          .col
+            h2 Contact Me
+        .row.justify-content-center
+          .col-md-6
+           form
+              .mb-3
+                span Nama Lengkap
+                input#name.form-control(type="text" name="Nama Lengkap" required="required")
+              .mb-3
+                span Email
+                input#email.form-control(type="email" name="Email" required="required")
+              .mb-3
+                span Pesan
+                textarea#pesan.form-control(type="text" name="Pesan" required="required")
+              .mb-3
+                input(type="submit" name="" value="Kirim")
+                
+      svg(xmlns="http://www.w3.org/2000/svg", viewBox="0 0 1440 320")
+        path(fill="#212529", fill-opacity="1", d="M0,0L40,21.3C80,43,160,85,240,96C320,107,400,85,480,101.3C560,117,640,171,720,160C800,149,880,75,960,80C1040,85,1120,171,1200,170.7C1280,171,1360,85,1400,42.7L1440,0L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z")   
